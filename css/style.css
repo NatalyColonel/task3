@@ -1,0 +1,130 @@
+body {
+	margin: 30;
+	padding: 0;
+}
+img {
+	padding-bottom: 30;
+}
+
+
+ul#menu  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	background-image: -moz-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
+	background-image: -webkit-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
+	background-image: -ms-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);        
+}
+
+ul#menu li {
+    float: left;
+    display:inline;
+}
+
+ul#menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+ul#menu li a:hover {
+  background-image: -moz-linear-gradient( 90deg, rgb(46,46,46) 0%, rgb(74,74,74) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(46,46,46) 0%, rgb(74,74,74) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(46,46,46) 0%, rgb(74,74,74) 100%);	
+}
+
+#spisoc{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+
+}
+
+ul#spisoc li {
+
+}
+
+ul#spisoc > li > a {
+    display: block;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    list-style-position:inside;
+    border-bottom: 1px solid grey;
+}
+
+/* Change the link color to #111 (black) on hover */
+ul#spisoc li a:hover {
+	background: rgb(249,249,249);
+	padding-left: 20px
+}
+
+
+#container{
+	margin: 0 0 0 0%;    
+	overflow: auto;
+}
+.sidebar{
+    width:25%;
+    color: black;
+    float: left;
+    display: block;
+    margin: 0 0 0 0%;    
+}
+.content{
+    width:60%;
+    display: block;
+    float: left;
+    margin: 0 0 0 10%;
+}
+.text{
+	width:60%;
+    display: block;
+    float: left;
+    margin: 0 0 0 35%;
+}
+ul#menu2 {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background: rgb(225,225,225);
+	}
+ul#menu2 li {
+    float: left;
+    display:inline;
+}
+
+ul#menu2 li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu2{
+    width:75%;
+    float: left;
+    
+}
+
+.copyright{
+    width:15%;
+    color: black;
+    float: left;
+    margin: 16px 0;
+    padding: 14px 0;
+    background: rgb(225,225,225);
+    vertical-align: middle;
+}
+
+.footer{
+    background: rgb(225,225,225);
+}
